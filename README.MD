@@ -1,53 +1,56 @@
-# Cabecera h1
-## cabecera h2
-### cabecera h3
-#### cabecera h4
-##### cabecera h5
-###### cabecera h6
+# Cabecera h1 "#"
+## cabecera h2 "##"
+### cabecera h3 "###"
+#### cabecera h4 "####"
+##### cabecera h5 "#####"
+###### cabecera h6 "######"
 
 # Subrayados
 
-underline 1
------------
+underline 1 "---"
+---
 
-underline 2
-===========
+underline 2 "==="
+===
 
 # Énfasis
 se pueden combinar todas entre si como ***~~aqui~~***
 
-- *letra italica 1*
-- _letra italica 2_
+- *letra italica 1* "* t *"
+- _letra italica 2_ "_ t _"
 
-- formato **bold o strong**
+- formato **bold o strong** "** a **"
 - formato __bold o strong__
+"__ a __"
 
-- formato ~~tachado~~
+- formato ~~tachado~~ "~~ a ~~"
 
 # Listas
-#### lista ordenada
+#### lista ordenada (se numera el primero con un punto y se hace automático)
 1. item de lista ordenada
 2. item de lista ordenada
 3. item de lista ordenada
 
-#### lista desordenada
+#### lista desordenada "-"
 - item de lista desordenada
 - item de lista desordenada
 - item de lista desordenada
 
 # Links
 
-- <a href="https://google.es">liks uno como html</a>
-- [link en markdown](http://google.com)
-- [link en markdown al index](index.html)
+- <a href="https://google.es">liks uno como html</a> usando las etiquetas como html
+- [link en markdown](http://google.com), entre [ ] se pone el texto de link y entre ( ) el enlace o dirección
+- [link en markdown al index](index.html) se usa para ir a una parte del documento
 
 # Imagenes
+
+Se pone ! y entre [ ] el texto de la foto que se mostrará en caso de no cargar y entre ( ) la url o ubicación de la foto.
 
 ![logo github](https://logos-world.net/wp-content/uploads/2020/11/GitHub-Symbol.png)
 
 # Code Snippets
 
-mirar en [highlight.js](https://highlightjs.org/) demo para ver resaltados según lenguaje.
+mirar en [highlight.js](https://highlightjs.org/) para ver más información.
 
 Código en JSON
 
@@ -65,6 +68,7 @@ Código en JSON
   }
 ]
 ```
+
 Código en Javascript
 
 ```Javascript
